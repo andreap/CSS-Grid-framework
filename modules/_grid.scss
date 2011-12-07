@@ -1,0 +1,17 @@
+@mixin layout {
+	position:relative;
+}
+
+@mixin colStyle {
+	@include layout;
+	display:inline;
+	float:left;
+	margin: {
+		left:$margin;
+		right:$margin;
+	}
+}
+
+// PARTIALS
+@import "partials/cols";
+@import "partials/layout";

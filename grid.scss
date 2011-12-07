@@ -1,0 +1,19 @@
+@import "modules/variables";
+
+body {
+	min-width:$fullWidth;
+}
+
+.container_#{$numCols} {
+	width:$fullWidth;
+	margin: {
+		left:auto;
+		right:auto;
+	}
+}
+
+@import "modules/grid";
+
+.container-full {
+	width:$fullWidth;
+}
