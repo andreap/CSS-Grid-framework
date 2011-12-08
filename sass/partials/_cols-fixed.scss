@@ -1,5 +1,6 @@
 .col_1 {
 	@include colStyle;
+	@include colFixed;
 }
 
 .container_#{$numCols} .col_1 {
@@ -8,8 +9,10 @@
 
 $i: 2;
 @while $i < $numCols + 1 {
+	
 	.col_#{$i} {
 		@include colStyle;
+		@include colFixed;
 	}
 	
 	.container_#{$numCols} .col_#{$i} {
@@ -17,4 +20,5 @@ $i: 2;
 	}
 	
 	$i: $i + 1;
+	
 }

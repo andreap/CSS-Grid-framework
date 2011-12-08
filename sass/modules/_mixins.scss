@@ -1,0 +1,26 @@
+@mixin positioning {
+	position:relative;
+}
+
+// Style common to all columns of the grid
+@mixin colStyle {
+	@include positioning;
+	display:inline;
+	float:left;
+}
+
+// Style specific for fixed layout (margins in pixel)
+@mixin colFixed {
+	margin: {
+		left:$margin;
+		right:$margin;
+	}
+}
+
+// Style specific for fixed layout (margins in %)
+@mixin colLiquid {
+	margin: {
+		left:1%;
+		right:1%;
+	}
+}
