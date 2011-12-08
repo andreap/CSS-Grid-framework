@@ -1,5 +1,4 @@
 // GRID
-
 @mixin positioning {
 	position:relative;
 }
@@ -35,5 +34,53 @@
 	background: {
 		image:url($file);
 		repeat:repeat-x;
+	}
+}
+
+
+// TYPOGRAPHY
+@mixin maiusc {
+	text: {
+		transform:uppercase;
+	}
+}
+
+// Make text aligned to center
+@mixin text-centered {
+	text: {
+		align:center;
+	}
+}
+
+// Make text aligned to left
+@mixin text-lefted {
+	text: {
+		align:left;
+	}
+}
+
+// Make text aligned to right
+@mixin text-righted {
+	text: {
+		align:right;
+	}
+}
+
+// Eliminate decoration from text
+@mixin noDecoration {
+	text: {
+		decoration:none;
+	}
+}
+
+// A style for hgroup titling (h1, h2 etc.)
+@mixin title {
+	font: {
+		family:$serif;
+		weight:normal;
+	}
+	margin: {
+		top:20px;
+		bottom:20px;
 	}
 }
