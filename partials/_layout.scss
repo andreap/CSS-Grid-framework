@@ -1,7 +1,0 @@
-$i: 1;
-@while $i < $numCols + 1 {
-	.push_#{$i}, .pull_#{$i} {
-		@include layout;
-	}
-	$i: $i + 1;
-}
