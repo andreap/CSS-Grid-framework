@@ -1,1 +1,27 @@
 // Creates and initializes variables loading project's font families
+
+// MUSEO 700
+@font-face {
+	font-family:'Museo700';
+	src: url('../webfonts/eot/museo700.eot');
+	src: url('../webfonts/eot/museo700.eot?#iefix')
+		format('embedded-opentype'),url('../webfonts/woff/museo700.woff')
+		format('woff'),url('../webfonts/ttf/museo700.ttf')
+		format('truetype'),url('../webfonts/svg/museo700.svg#Museo700')
+		format('svg');
+}
+
+// DEZEN PRO
+@font-face {
+	font-family:'Dezen';
+	src: url('../webfonts/eot/dezen.eot');
+	src: url('../webfonts/eot/dezen.eot?#iefix')
+		format('embedded-opentype'),url('../webfonts/woff/dezen.woff')
+		format('woff'),url('../webfonts/ttf/dezen.ttf')
+		format('truetype'),url('../webfonts/svg/dezen.svg#Dezen')
+		format('svg');
+}
+
+// VARIABLES
+$museo: Museo700, serif;
+$dezen: Dezen, sans-serif;

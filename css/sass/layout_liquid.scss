@@ -8,10 +8,6 @@
 ----------------------------------------------------------------*/
 @import "partials/maincontainers-liquid";
 
-/* Childrens first e last
-----------------------------------------------------------------*/
-@import "partials/firstlast";
-
 /* Grid >> Columns
 ----------------------------------------------------------------*/
 @import "partials/cols-liquid";
@@ -29,3 +25,11 @@
 /* Clear rules
 ----------------------------------------------------------------*/
 @import "partials/clear-liquid";
+
+/* Layout rules
+----------------------------------------------------------------*/
+@import "partials/layout-rules";
+
+/* Childrens first e last
+----------------------------------------------------------------*/
+@import "partials/firstlast";

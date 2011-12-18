@@ -76,11 +76,7 @@
 // A style for hgroup titling (h1, h2 etc.)
 @mixin title {
 	font: {
-		family:$serif;
+		family:$museo;
 		weight:normal;
-	}
-	margin: {
-		top:20px;
-		bottom:20px;
 	}
 }

@@ -1,3 +1,0 @@
-Based on 960.gs gridsystem, CSS_grid_framework is a cluster of sass partials and modules which generate custom css grids
-
-just fill with your values the file sass/modules/_variables.scss and customize your css grid

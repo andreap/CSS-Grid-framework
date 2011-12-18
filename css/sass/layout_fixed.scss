@@ -8,10 +8,6 @@
 ----------------------------------------------------------------*/
 @import "partials/maincontainers-fixed";
 
-/* Childrens first e last
-----------------------------------------------------------------*/
-@import "partials/firstlast";
-
 /* Grid >> Columns
 ----------------------------------------------------------------*/
 @import "partials/cols-fixed";
@@ -29,3 +25,11 @@
 /* Clear rules
 ----------------------------------------------------------------*/
 @import "partials/clear-fixed";
+
+/* Layout rules
+----------------------------------------------------------------*/
+@import "partials/layout-rules";
+
+/* Childrens first e last
+----------------------------------------------------------------*/
+@import "partials/firstlast";

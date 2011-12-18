@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Museo700';
+  src: url("../webfonts/eot/museo700.eot");
+  src: url("../webfonts/eot/museo700.eot?#iefix") format("embedded-opentype"), url("../webfonts/woff/museo700.woff") format("woff"), url("../webfonts/ttf/museo700.ttf") format("truetype"), url("../webfonts/svg/museo700.svg#Museo700") format("svg"); }
+
+@font-face {
+  font-family: 'Dezen';
+  src: url("../webfonts/eot/dezen.eot");
+  src: url("../webfonts/eot/dezen.eot?#iefix") format("embedded-opentype"), url("../webfonts/woff/dezen.woff") format("woff"), url("../webfonts/ttf/dezen.ttf") format("truetype"), url("../webfonts/svg/dezen.svg#Dezen") format("svg"); }
+
+body {
+  font-size: 12px;
+  font-family: Dezen, sans-serif; }
+
+p {
+  font-size: 13px;
+  line-height: 21px; }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #993300; }
+a:focus, a:hover {
+  text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Museo700, serif;
+  font-weight: normal; }
+
+h1 {
+  font-size: 21px; }
+
+h2 {
+  font-size: 18px; }
