@@ -1,0 +1,14 @@
+$i: 1;
+@while $i < $numCols {
+	
+	.line_#{$i} {
+		@include breakLine(col-width-fixed($i),$lineFile);
+	}
+	
+	$i: $i + 1;
+	
+}
+
+.line_full {
+	@include breakLine(col-width-fixed($numCols),$lineFile);
+}

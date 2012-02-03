@@ -5,12 +5,9 @@
 <!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<!-- the "no-js" class is for Modernizr. -->
 
 	<head id="www-sitename-com" data-template-set="html5-reset" profile="http://gmpg.org/xfn/11">
 		<meta charset="utf-8">
-		
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		
 		<title>CSS Grid Framework</title>
@@ -26,6 +23,11 @@
 		<meta name="DC.title" content="Project Name">
 		<meta name="DC.subject" content="What you're about.">
 		<meta name="DC.creator" content="Who made this site.">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" media="screen" href="css/reset.css">
+		<link rel="stylesheet" media="screen" href="css/typography.css">
+		<link rel="stylesheet" media="screen" href="css/layout_fixed.css">
 		
 		<!--  Mobile Viewport Fix
 		j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
@@ -49,17 +51,108 @@
 		- size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
 		- To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		- Transparency is not recommended (iOS will put a black BG behind the icon) -->
-		
-		<!-- Loading CSS files -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/layout_fixed.css">
-		<link rel="stylesheet" href="css/typography.css">
-		
-		<!-- all our JS is at the bottom of the page, except for Modernizr. -->
-		<script src="js/modernizr-1.7.min.js"></script>
 	</head>
 
-	<body>
+	<body class="container_full">
+		
+		
+		<div id="top" class="section">
+			<div id="top-wrapper" class="col_full">
+				top
+			</div>
+			<div class="clear"></div>
+		</div> <!-- END #top -->
+
+
+		<div id="header" class="section">
+			<div id="header-wrapper" class="col_full">
+				<div id="logo" class="col_5 col_first ">
+					logo
+				</div>
+				<div class="col_10 col_last">
+					sdsd
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div> <!-- END #header -->
+
+		<div id="main" class="section">
+			<div id="main-wrapper" class="col_full">
+				<h1>Home</h1>
+				<div class="line_full"></div>
+
+				<p>Hello, you're in home</p>
+
+				<div class="line_15"></div>
+
+				<div id="boxes">
+					<div class="col_5 col_first">
+						<h3>sdas</h3>
+						<div class="line_5"></div>
+						<p>asdlas dasdlas adskòd asldkaòlsk daòsld aòslkd aòskd òaskd òalskd alsòkd aòlskd lasò askdòlak òldka sòld kaòsldk a akdòls kdòlaskd òlaskd òlaskd lòaskd lòask dòlask lò</p>
+					</div>
+
+					<div class="col_5">
+						<h3>sdfs</h3>
+						<div class="line_5"></div>
+						<p>asdlas dasdlas adskòd asldkaòlsk daòsld aòslkd aòskd òaskd òalskd alsòkd aòlskd lasò askdòlak òldka sòld kaòsldk a akdaòls kdòlaskd òlaskd òlaskd lòaskd lòask dòlask lò</p>
+					</div>
+
+					<div class="col_5 col_last">
+						<h3>fhf</h3>
+						<div class="line_5"></div>
+						<p>asdlas dasdlas adskòd asldkaòlsk daòsld aòslkd aòskd òaskd òalskd alsòkd aòlskd lasò askdòlak òldka sòld kaòsldk a akdaòls kdòlaskd òlaskd òlaskd lòaskd lòask dòlask lò</p>
+					</div>
+
+					<div class="clear"></div>
+				</div> <!-- END #boxes -->
+
+				<div id="boxes2">
+					<div class="col_3 col_first">
+						<h3>sdas</h3>
+						<div class="line_3"></div>
+						<p>asdlas dasdlas adskòd asldkaòlsk daòsld aòslkd aòskd òaskd òalskd alsòkd aòlskd lasò askdòlak òldka sòld kaòsldk a akdòls kdòlaskd òlaskd òlaskd lòaskd lòask dòlask lò</p>
+					</div>
+
+					<div class="col_3">
+						<h3>sdfs</h3>
+						<div class="line_3"></div>
+						<p>asdlas dasdlas adskòd asldkaòlsk daòsld aòslkd aòskd òaskd òalskd alsòkd aòlskd lasò askdòlak òldka sòld kaòsldk a akdaòls kdòlaskd òlaskd òlaskd lòaskd lòask dòlask lò</p>
+					</div>
+
+					<div class="col_3">
+						<h3>fhf</h3>
+						<div class="line_3"></div>
+						<p>asdlas dasdlas adskòd asldkaòlsk daòsld aòslkd aòskd òaskd òalskd alsòkd aòlskd lasò askdòlak òldka sòld kaòsldk a akdaòls kdòlaskd òlaskd òlaskd lòaskd lòask dòlask lò</p>
+					</div>
+
+					<div class="col_3">
+						<h3>fhf</h3>
+						<div class="line_3"></div>
+						<p>asdlas dasdlas adskòd asldkaòlsk daòsld aòslkd aòskd òaskd òalskd alsòkd aòlskd lasò askdòlak òldka sòld kaòsldk a akdaòls kdòlaskd òlaskd òlaskd lòaskd lòask dòlask lò</p>
+					</div>
+
+					<div class="col_3 col_last">
+						<h3>fhf</h3>
+						<div class="line_3"></div>
+						<p>asdlas dasdlas adskòd asldkaòlsk daòsld aòslkd aòskd òaskd òalskd alsòkd aòlskd lasò askdòlak òldka sòld kaòsldk a akdaòls kdòlaskd òlaskd òlaskd lòaskd lòask dòlask lò</p>
+					</div>
+
+					<div class="clear"></div>
+				</div> <!-- END #boxes2 -->
+
+			</div> <!-- END #main-wrapper -->
+			<div class="clear"></div>	
+		</div> <!-- END #main -->
+			
+		<div id="footer" class="section">
+			<div id="footer-wrapper" class="col_full">
+				footer
+			</div>
+			<div class="clear"></div>
+		</div> <!-- END #footer -->
+		
+		
 		<section id="container" class="container-full centered"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 			
 			<header class="container_15">
@@ -102,8 +195,9 @@
 		
 		<!-- here comes the javascript -->
 		<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/modernizr-1.7.min.js"></script>
+		<script type="text/javascript">window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script>
 		
 		<!-- this is where we put our custom functions -->
 		<script src="js/functions.js"></script>

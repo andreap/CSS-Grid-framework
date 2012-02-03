@@ -10,24 +10,35 @@
 
 body {
   font-size: 12px;
+  font-family: Arial, sans-serif; }
+
+.fontface body {
   font-family: Dezen, sans-serif; }
 
 p {
   font-size: 13px;
   line-height: 21px; }
 
-a:link, a:visited {
-  text-decoration: none;
-  color: #993300; }
-a:focus, a:hover {
-  text-decoration: underline; }
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: Museo700, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal; }
+
+.fontface h1,
+.fontface h2,
+.fontface h3,
+.fontface h4,
+.fontface h5,
+.fontface h6 {
+  font-family: Museo700, serif; }
 
 h1 {
   font-size: 21px; }
 
 h2 {
   font-size: 18px; }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #993300; }
+a:focus, a:hover {
+  text-decoration: underline; }
