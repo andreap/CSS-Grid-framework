@@ -1,17 +1,20 @@
 // Insert here grid values.
 // To build a custom grid try to take a look on http://grids.heroku.com/
 
+
 // COLUMN WIDTH
-$colWidth: 16px;
+$colWidth: 44px;
 // NUMBER OF COLUMNS
 $numCols: 15;
 // GUTTER WIDTH
-$margin: 40px;
+$margin: 20px;
+
 
 // Full width
 $fullWidth: ($colWidth+$margin) * $numCols;
 // Container width
 $containerWidth: $fullWidth - $margin;
+
 
 // COLUMN WIDTH %
 $colWidthPercent: 100% / $numCols;

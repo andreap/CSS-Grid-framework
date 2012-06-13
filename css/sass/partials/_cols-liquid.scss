@@ -1,12 +1,34 @@
-@for $i from 1 through $numCols {
+.col_1 {
+	@include colStyle;
+	@include colLiquid;
+}
+
+.container_full .col_1 {
+	width:$colWidthPercent;
+}
+
+
+$i: 2;
+@while $i < $numCols {
 	
 	.col_#{$i} {
 		@include colStyle;
 		@include colLiquid;
 	}
 	
-	.container_#{$numCols} .col_#{$i} {
+	.container_full .col_#{$i} {
 		width: $colWidthPercent*$i - $marginPercent*2;
 	}
 
+	$i: $i + 1;
+}
+
+
+.col_full {
+	@include colStyle;
+	@include colLiquid;
+}
+
+.container_full .col_full {
+	width: 100% - $marginPercent*2;
 }

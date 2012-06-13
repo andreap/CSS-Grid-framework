@@ -1,0 +1,4 @@
+.line {
+	@include breakLine(100,$lineFile);
+	overflow:hidden;
+}
